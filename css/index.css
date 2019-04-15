@@ -1,0 +1,351 @@
+/* Root Variables */
+
+:root {
+	--main-color: #487EB0;
+	--background-color: #333333FF;
+}
+
+
+
+
+
+
+
+
+
+
+/* Tags */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+button:focus,
+button:hover,
+button.btn:focus,
+button.btn:hover {
+	outline: none;
+	box-shadow: none;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0rem;
+	position: relative;
+}
+
+h1, h2 {
+	font-weight: 800;
+}
+
+p {
+	margin: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Styling Components */
+
+.section-background {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFFFF;
+	position: relative;
+}
+
+.section-background::before {
+	content: '';
+	background-color: #00000088;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.section-header {
+	padding: 7rem 0rem;
+}
+
+.section-title {
+	text-transform: uppercase;
+}
+
+.section-title .highlighted {
+	padding: 0.5rem;
+	background-color: var(--main-color);
+}
+
+.section-title .underlined {
+	border-bottom: 1px solid #FFFFFFFF;
+}
+
+.separator-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+	background-color: var(--background-color);
+	padding: 1.5rem;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-nav {
+	flex: 1 1 0;
+	font-size: 0.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:link,
+.navbar-dark .navbar-nav .nav-link:visited {
+	color: #FFFFFFFF;
+}
+
+.navbar-nav .nav-item {
+	flex: 1 1 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* Home Section */
+
+#home {
+	background-image: url('assets/images/mountains.jpg');
+}
+
+#home .home-subtitle {
+	color: #DDDDDDFF;
+}
+
+
+
+
+
+
+
+
+
+
+/* About Section */
+
+#about .section-header {
+	background-image: url('assets/images/abstractSquares.jpg');
+}
+
+#about .section-content .biography p:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Services Section */
+
+#services {
+	background-color: #F3F3F3FF;
+}
+
+#services .section-header {
+	background-image: url('assets/images/marble.jpg');
+}
+
+.single-service {
+	margin: 1rem 0rem;
+}
+
+.single-service .content {
+	background-color: #FFFFFFFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #00000025;
+	padding: 2rem 2rem 3rem 2rem;
+}
+
+.single-service .content:hover {
+	box-shadow: 1px 5px 20px #00000030;
+	transform: translateY(-5px);
+}
+
+.single-service .content:hover .icon {
+	background-color: #212121FF;
+	color: #FFFFFFFF;
+}
+
+.single-service .content .icon {
+	background-color: #F3F3F3FF;
+	border-radius: 50%;
+	font-size: 1.75rem;
+	line-height: 70px;
+	margin: 0rem auto;
+	height: 70px;
+	width: 70px;
+}
+
+.single-service .content,
+.single-service .content .icon {
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.single-service .content .title {
+	font-weight: 600;
+	margin: 1.25rem 0rem 0.75rem 0rem;
+}
+
+.single-service .content .subtitle {
+	font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Projects Section */
+
+#projects .section-header {
+	background-image: url('assets/images/blackPinball.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact Section */
+
+#contact .section-header {
+	background-image: url('assets/images/rainyRails.jpg');
+}
+
+.form-control {
+    background-color: #EEEEEEFF;
+    border: none;
+    font-weight: 500;
+    padding: 15px;
+    height: auto;
+}
+
+.form-control:focus {
+	background-color: #F5F5F5FF;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+	color: #A5A5A5FF;
+}
+
+.was-validated .form-control:invalid:focus,
+.was-validated .form-control:valid:focus {
+	box-shadow: none;
+}
+
+.invalid-feedback {
+	font-weight: 500;
+	text-align: left;
+}
+
+.btn-send-message {
+	background-color: #888888FF;
+	color: #FFFFFFFF;
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin-top: 1rem;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+#footer {
+	background-color: var(--background-color);
+	color: #FFFFFFFF;
+	padding: 5rem 0rem;
+}
+
+.social-links {
+	padding: 0rem;
+}
+
+.social-links li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.social-links li a {
+	background-color: #FFFFFFFF;
+	border-radius: 50%;
+	color: #212121FF;
+	display: inline-block;
+	font-size: 1.25rem;
+	line-height: 40px;
+	text-align: center;
+	height: 40px;
+	width: 40px;
+}
+
+.copyright span {
+	color: var(--main-color);
+	font-weight: 700;
+}

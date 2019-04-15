@@ -1,0 +1,116 @@
+/* Media Queries */
+
+@media only all {
+
+	/* Styling Components */
+
+	.section-background {
+		background-attachment: scroll;
+	}
+
+	/* Sections */
+
+	.section-header .section-title {
+		font-size: 2.5rem;
+	}
+
+	.section-content {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	/* Home Section */
+
+	#home .home-title {
+		font-size: 2.25rem;
+		margin-bottom: 0.5rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+	/* Styling Components */
+
+	.section-background {
+		background-attachment: fixed;
+	}
+
+	/* Sections */
+
+	.section-header .section-title {
+		font-size: 3rem;
+	}
+
+	/* Home Section */
+
+	#home .home-title {
+		font-size: 2.75rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+	/* Sections */
+
+	.section-header .section-title {
+		font-size: 4rem;
+	}
+
+	.section-content {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+
+	/* Home Section */
+
+	#home .home-title {
+		font-size: 4rem;
+	}
+
+}
