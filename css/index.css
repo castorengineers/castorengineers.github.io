@@ -47,6 +47,10 @@ p {
 	margin: 0rem;
 }
 
+section {
+	background-color: #F3F3F3FF;
+}
+
 
 
 
@@ -82,6 +86,7 @@ p {
 
 .section-title {
 	text-transform: uppercase;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 .section-title .highlighted {
@@ -122,7 +127,7 @@ p {
 .navbar-nav {
 	flex: 1 1 0;
 	font-size: 0.9rem;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -131,6 +136,8 @@ p {
 .navbar-dark .navbar-nav .nav-link:link,
 .navbar-dark .navbar-nav .nav-link:visited {
 	color: #FFFFFFFF;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.1rem;
 }
 
 .navbar-nav .nav-item {
@@ -150,10 +157,12 @@ p {
 
 #home {
 	background-image: url('assets/images/mountains.jpg');
+	font-family: 'Rajdhani', sans-serif;
 }
 
 #home .home-subtitle {
 	color: #DDDDDDFF;
+	font-size: 1.5rem;
 }
 
 
@@ -185,10 +194,6 @@ p {
 
 
 /* Services Section */
-
-#services {
-	background-color: #F3F3F3FF;
-}
 
 #services .section-header {
 	background-image: url('assets/images/marble.jpg');
@@ -232,8 +237,10 @@ p {
 }
 
 .single-service .content .title {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5rem;
 	font-weight: 600;
-	margin: 1.25rem 0rem 0.75rem 0rem;
+	margin: 1.75rem 0rem 1rem 0rem;
 }
 
 .single-service .content .subtitle {
@@ -280,7 +287,7 @@ p {
 
 .form-control:focus {
 	background-color: #F5F5F5FF;
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .form-control::placeholder {
@@ -324,25 +331,8 @@ p {
 	padding: 5rem 0rem;
 }
 
-.social-links {
-	padding: 0rem;
-}
-
-.social-links li {
-	display: inline-block;
-	margin: 0px 5px;
-}
-
-.social-links li a {
-	background-color: #FFFFFFFF;
-	border-radius: 50%;
-	color: #212121FF;
-	display: inline-block;
-	font-size: 1.25rem;
-	line-height: 40px;
-	text-align: center;
-	height: 40px;
-	width: 40px;
+.copyright {
+	font-family: 'Rajdhani', sans-serif;
 }
 
 .copyright span {

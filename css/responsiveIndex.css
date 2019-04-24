@@ -11,7 +11,7 @@
 	/* Sections */
 
 	.section-header .section-title {
-		font-size: 2.5rem;
+		font-size: 3.5rem;
 	}
 
 	.section-content {
@@ -22,7 +22,7 @@
 	/* Home Section */
 
 	#home .home-title {
-		font-size: 2.25rem;
+		font-size: 3.5rem;
 		margin-bottom: 0.5rem;
 	}
 
@@ -58,18 +58,6 @@
 		background-attachment: fixed;
 	}
 
-	/* Sections */
-
-	.section-header .section-title {
-		font-size: 3rem;
-	}
-
-	/* Home Section */
-
-	#home .home-title {
-		font-size: 2.75rem;
-	}
-
 }
 
 
@@ -99,7 +87,7 @@
 	/* Sections */
 
 	.section-header .section-title {
-		font-size: 4rem;
+		font-size: 5rem;
 	}
 
 	.section-content {
@@ -110,7 +98,7 @@
 	/* Home Section */
 
 	#home .home-title {
-		font-size: 4rem;
+		font-size: 5rem;
 	}
 
 }
