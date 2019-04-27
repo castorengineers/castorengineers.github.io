@@ -2,8 +2,7 @@ $(document).ready(function() {
 
 	// AOS Initialization
 	AOS.init({
-		offset: 140,
-		once: true
+		offset: 140
 	});
 
 

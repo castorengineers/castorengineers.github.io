@@ -1,7 +1,7 @@
 /* Root Variables */
 
 :root {
-	--main-color: #487EB0;
+	--color-blue: #487EB0;
 	--background-color: #333333FF;
 }
 
@@ -91,7 +91,7 @@ section {
 
 .section-title .highlighted {
 	padding: 0.5rem;
-	background-color: var(--main-color);
+	background-color: var(--color-blue);
 }
 
 .section-title .underlined {
@@ -205,9 +205,8 @@ section {
 
 .single-service .content {
 	background-color: #FFFFFFFF;
-	border-radius: 5px;
 	box-shadow: 1px 1px 15px #00000025;
-	padding: 2rem 2rem 3rem 2rem;
+	padding: 3rem 2rem 3rem 2rem;
 }
 
 .single-service .content:hover {
@@ -239,7 +238,7 @@ section {
 .single-service .content .title {
 	font-family: 'Rajdhani', sans-serif;
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 700;
 	margin: 1.75rem 0rem 1rem 0rem;
 }
 
@@ -260,6 +259,80 @@ section {
 
 #projects .section-header {
 	background-image: url('assets/images/blackPinball.jpg');
+}
+
+#projects .section-content > .single-project:not(:last-child) {
+	margin-bottom: 4rem;
+}
+
+#projects .section-content .btn-view-projects {
+	border: 1px solid var(--color-blue);
+	color: var(--color-blue);
+	padding: 1rem;
+	text-decoration: none;
+}
+
+.single-project {
+	background-color: #FFFFFFFF;
+	box-shadow: 1px 1px 15px #00000025;
+}
+
+.single-project .image {
+	background-image: url('assets/images/skyscrapers.jpg');
+	background-size: cover;
+}
+
+.single-project-ltr {
+	text-align: left;
+}
+
+.single-project-ltr .image {
+	border-left: 25px solid var(--color-blue);
+}
+
+.single-project-rtl {
+	text-align: right;
+}
+
+.single-project-rtl .image {
+	border-right: 25px solid var(--color-blue);
+}
+
+.single-project .content {
+	padding: 4rem;
+}
+
+.single-project .content > *:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+.single-project .content .date {
+	font-size: 0.8rem;
+}
+
+.single-project .content .title {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.single-project .content .btn-details {
+	border: 1px solid var(--color-blue);
+	color: var(--color-blue);
+	display: inline-block;
+	padding: 1rem;
+	margin-top: 2rem;
+	text-decoration: none;
+}
+
+.single-project .content .btn-details {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.single-project .content .btn-details:hover {
+	background-color: var(--color-blue);
+	color: #FFFFFFFF;
 }
 
 
@@ -336,6 +409,6 @@ section {
 }
 
 .copyright span {
-	color: var(--main-color);
+	color: var(--color-blue);
 	font-weight: 700;
 }
