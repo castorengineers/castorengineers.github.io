@@ -1,8 +1,8 @@
 /* Root Variables */
 
 :root {
-	--color-blue: #487EB0;
 	--background-color: #333333FF;
+	--color-blue: #487EB0;
 }
 
 
@@ -86,7 +86,6 @@ section {
 
 .section-title {
 	text-transform: uppercase;
-	font-family: 'Rajdhani', sans-serif;
 }
 
 .section-title .highlighted {
@@ -126,8 +125,8 @@ section {
 
 .navbar-nav {
 	flex: 1 1 0;
-	font-size: 0.9rem;
-	font-weight: 600;
+	font-size: 1rem;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
@@ -136,8 +135,6 @@ section {
 .navbar-dark .navbar-nav .nav-link:link,
 .navbar-dark .navbar-nav .nav-link:visited {
 	color: #FFFFFFFF;
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 1.1rem;
 }
 
 .navbar-nav .nav-item {
@@ -156,13 +153,7 @@ section {
 /* Home Section */
 
 #home {
-	background-image: url('assets/images/mountains.jpg');
-	font-family: 'Rajdhani', sans-serif;
-}
-
-#home .home-subtitle {
-	color: #DDDDDDFF;
-	font-size: 1.5rem;
+	background-image: url('assets/images/skyscraper.jpg');
 }
 
 
@@ -236,7 +227,6 @@ section {
 }
 
 .single-service .content .title {
-	font-family: 'Rajdhani', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
 	margin: 1.75rem 0rem 1rem 0rem;
@@ -263,13 +253,6 @@ section {
 
 #projects .section-content > .single-project:not(:last-child) {
 	margin-bottom: 4rem;
-}
-
-#projects .section-content .btn-view-projects {
-	border: 1px solid var(--color-blue);
-	color: var(--color-blue);
-	padding: 1rem;
-	text-decoration: none;
 }
 
 .single-project {
@@ -311,7 +294,6 @@ section {
 }
 
 .single-project .content .title {
-	font-family: 'Rajdhani', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
 }
@@ -402,10 +384,6 @@ section {
 	background-color: var(--background-color);
 	color: #FFFFFFFF;
 	padding: 5rem 0rem;
-}
-
-.copyright {
-	font-family: 'Rajdhani', sans-serif;
 }
 
 .copyright span {
