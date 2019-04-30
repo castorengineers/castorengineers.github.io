@@ -280,6 +280,51 @@
 			<!-- Content -->
 			<div class="container section-content">
 
+				<div class="row">
+					<div class="col-md-6">
+						<div id="map-container-google" class="z-depth-1-half map-container" style="height: 500px">
+							<iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+							style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<form accept-charset="UTF-8" class="needs-validation" method="post" novalidate>
+							<div class="form-row">
+								<div class="col-md-6 mb-3">
+									<input class="form-control" type="text" id="name" name="name" placeholder="Name*" required="required">
+									<div class="invalid-feedback">
+										Please enter your name
+									</div>
+								</div>
+								<div class="col-md-6 mb-3">
+									<input class="form-control" type="email" id="email" name="email" placeholder="Email*" required="required">
+									<div class="invalid-feedback">
+										Please enter a valid email
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-12 mb-3">
+									<input class="form-control" type="text" id="subject" name="subject" placeholder="Subject*" required="required">
+									<div class="invalid-feedback">
+										Please enter a subject
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-12 mb-3">
+									<textarea class="form-control" type="text" id="message" name="message" placeholder="Please leave a message*" rows="7" required="required"></textarea>
+									<div class="invalid-feedback">
+										Please enter your message
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-send-message" type="submit" name="submit">Send Message</button>
+						</form>
+					</div>
+				</div>
+
 			</div>
 
 		</section>
@@ -329,6 +374,9 @@
 
 	<!-- Typed -->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+	<!-- Custom JavaScript -->
+	<script src="js/index.js"></script>
 
 	<!-- Custom JQuery -->
 	<script src="js/jquery.index.js"></script>
