@@ -2,7 +2,7 @@
 
 :root {
 	--background-color: #333333FF;
-	--color-blue: #487EB0;
+	--color-yellow: #F4B215;
 }
 
 
@@ -90,7 +90,7 @@ section {
 
 .section-title .highlighted {
 	padding: 0.5rem;
-	background-color: var(--color-blue);
+	background-color: var(--color-yellow);
 }
 
 .section-title .underlined {
@@ -153,7 +153,7 @@ section {
 /* Home Section */
 
 #home {
-	background-image: url('assets/images/skyscraper.jpg');
+	background-image: url('assets/images/engineerDesk.jpg');
 }
 
 
@@ -168,7 +168,7 @@ section {
 /* About Section */
 
 #about .section-header {
-	background-image: url('assets/images/abstractSquares.jpg');
+	background-image: url('assets/images/construction.jpg');
 }
 
 #about .section-content .biography p:not(:last-child) {
@@ -187,7 +187,7 @@ section {
 /* Services Section */
 
 #services .section-header {
-	background-image: url('assets/images/marble.jpg');
+	background-image: url('assets/images/constructionTools.jpg');
 }
 
 .single-service {
@@ -248,7 +248,7 @@ section {
 /* Projects Section */
 
 #projects .section-header {
-	background-image: url('assets/images/blackPinball.jpg');
+	background-image: url('assets/images/architecture.jpg');
 }
 
 #projects .section-content > .single-project:not(:last-child) {
@@ -270,7 +270,7 @@ section {
 }
 
 .single-project-ltr .image {
-	border-left: 25px solid var(--color-blue);
+	border-left: 25px solid var(--color-yellow);
 }
 
 .single-project-rtl {
@@ -278,7 +278,7 @@ section {
 }
 
 .single-project-rtl .image {
-	border-right: 25px solid var(--color-blue);
+	border-right: 25px solid var(--color-yellow);
 }
 
 .single-project .content {
@@ -299,8 +299,8 @@ section {
 }
 
 .single-project .content .btn-details {
-	border: 1px solid var(--color-blue);
-	color: var(--color-blue);
+	border: 1px solid var(--color-yellow);
+	color: var(--color-yellow);
 	display: inline-block;
 	padding: 1rem;
 	margin-top: 2rem;
@@ -313,7 +313,7 @@ section {
 }
 
 .single-project .content .btn-details:hover {
-	background-color: var(--color-blue);
+	background-color: var(--color-yellow);
 	color: #FFFFFFFF;
 }
 
@@ -329,7 +329,7 @@ section {
 /* Contact Section */
 
 #contact .section-header {
-	background-image: url('assets/images/rainyRails.jpg');
+	background-image: url('assets/images/engineerDesk.jpg');
 }
 
 .form-control {
@@ -402,6 +402,6 @@ section {
 }
 
 .copyright span {
-	color: var(--color-blue);
+	color: var(--color-yellow);
 	font-weight: 700;
 }
